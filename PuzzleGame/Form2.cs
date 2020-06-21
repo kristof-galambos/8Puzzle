@@ -244,5 +244,12 @@ namespace PuzzleGame
                 label1.Visible = true;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form1.Show();
+            form1.hideLabel();
+        }
     }
 }

@@ -53,6 +53,11 @@ namespace PuzzleGame
             return ai;
         }
 
+        public void hideLabel()
+        {
+            label4.Visible = false;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Form3 form3 = new Form3(this);
@@ -62,6 +67,9 @@ namespace PuzzleGame
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //display scrambling label
+            label4.Visible = true;
+            Console.WriteLine("Setting label4 to visible");
             string diff = getDifficulty();
             bool ai = getAI();
             Form2 form2 = new Form2(this, diff, ai);

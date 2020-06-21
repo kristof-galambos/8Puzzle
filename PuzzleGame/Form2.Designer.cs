@@ -196,6 +196,7 @@
             this.button2.TabIndex = 14;
             this.button2.Text = "New game";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -228,9 +229,9 @@
             this.button5.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(508, 108);
+            this.button5.Location = new System.Drawing.Point(522, 108);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(73, 86);
+            this.button5.Size = new System.Drawing.Size(59, 86);
             this.button5.TabIndex = 17;
             this.button5.Text = "Left";
             this.button5.UseVisualStyleBackColor = false;
@@ -243,7 +244,7 @@
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.Location = new System.Drawing.Point(692, 108);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(76, 86);
+            this.button6.Size = new System.Drawing.Size(60, 86);
             this.button6.TabIndex = 18;
             this.button6.Text = "Right";
             this.button6.UseVisualStyleBackColor = false;

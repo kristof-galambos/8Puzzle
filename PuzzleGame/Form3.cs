@@ -35,6 +35,7 @@ namespace PuzzleGame
             if (form1 != null)
             {
                 form1.Show();
+                form1.hideLabel();
             }
             else
             {
@@ -42,13 +43,14 @@ namespace PuzzleGame
             }
         }
 
-        private void Form3_KeyDown(object sender, KeyEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Console.WriteLine("Key down");
+            Console.WriteLine("Form3 closed");
             if (form1 != null)
             {
                 form1.Show();
+                form1.hideLabel();
             }
             else
             {
