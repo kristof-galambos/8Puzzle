@@ -193,5 +193,13 @@ namespace PuzzleGame
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3(this);
+            timer1.Stop();
+            this.Hide();
+            form3.Show();
+        }
     }
 }
