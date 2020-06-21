@@ -30,17 +30,13 @@ namespace PuzzleGame
             setPictureBoxSize();
             setPictureBoxMode();
             game = new Game(this, diff);
-
-            timer1.Interval = 200;
-            timer1.Tick += handleInput;
-            timer1.Start();
         }
 
         private void handleInput(object sender, EventArgs e)
         {
             if (gameOver)
             {
-                label1.Text = "Congratulations, you have\nsolved the game!\nPress enter to play again.";
+                label1.Text = "Congratulations, you have\nsolved the game!";
                 label1.Visible = true;
                 if (Input.KeyPress(Keys.Enter))
                 {
@@ -89,7 +85,6 @@ namespace PuzzleGame
             if (Input.KeyPress(Keys.S))
             {
                 Form3 form3 = new Form3(this);
-                timer1.Stop();
                 this.Hide();
                 form3.Show();
             }
@@ -132,21 +127,6 @@ namespace PuzzleGame
             {
                 int apple = 0;
             }
-        }
-
-        public void startTimer()
-        {
-            timer1.Start();
-        }
-
-        private void keyisdown(object sender, KeyEventArgs e)
-        {
-            Input.changeState(e.KeyCode, true);
-        }
-
-        private void keyisup(object sender, KeyEventArgs e)
-        {
-            Input.changeState(e.KeyCode, false);
         }
 
         private void setPictureBoxMode()
@@ -197,9 +177,72 @@ namespace PuzzleGame
         private void button1_Click(object sender, EventArgs e)
         {
             Form3 form3 = new Form3(this);
-            timer1.Stop();
             this.Hide();
             form3.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            game.up();
+            game.printGame();
+            game.updatePositions();
+            if (want_ai)
+            {
+                updateAILabels();
+            }
+            if (game.endGame())
+            {
+                label1.Text = "Congratulations, you have\nsolved the game!";
+                label1.Visible = true;
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            game.down();
+            game.printGame();
+            game.updatePositions();
+            if (want_ai)
+            {
+                updateAILabels();
+            }
+            if (game.endGame())
+            {
+                label1.Text = "Congratulations, you have\nsolved the game!";
+                label1.Visible = true;
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            game.left();
+            game.printGame();
+            game.updatePositions();
+            if (want_ai)
+            {
+                updateAILabels();
+            }
+            if (game.endGame())
+            {
+                label1.Text = "Congratulations, you have\nsolved the game!";
+                label1.Visible = true;
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            game.right();
+            game.printGame();
+            game.updatePositions();
+            if (want_ai)
+            {
+                updateAILabels();
+            }
+            if (game.endGame())
+            {
+                label1.Text = "Congratulations, you have\nsolved the game!";
+                label1.Visible = true;
+            }
         }
     }
 }

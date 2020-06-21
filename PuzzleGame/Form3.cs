@@ -39,7 +39,6 @@ namespace PuzzleGame
             else
             {
                 form2.Show();
-                form2.startTimer();
             }
         }
 
@@ -54,7 +53,6 @@ namespace PuzzleGame
             else
             {
                 form2.Show();
-                form2.startTimer();
             }
         }
     }
