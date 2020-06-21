@@ -143,7 +143,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(469, 219);
+            this.label1.Location = new System.Drawing.Point(469, 261);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(143, 25);
             this.label1.TabIndex = 9;
@@ -154,7 +154,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(469, 287);
+            this.label3.Location = new System.Drawing.Point(469, 332);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 25);
             this.label3.TabIndex = 11;
@@ -165,7 +165,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(623, 314);
+            this.label4.Location = new System.Drawing.Point(596, 368);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 25);
             this.label4.TabIndex = 12;
@@ -203,9 +203,9 @@
             this.button3.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(587, 108);
+            this.button3.Location = new System.Drawing.Point(587, 105);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(99, 40);
+            this.button3.Size = new System.Drawing.Size(99, 66);
             this.button3.TabIndex = 15;
             this.button3.Text = "Up";
             this.button3.UseVisualStyleBackColor = false;
@@ -216,9 +216,9 @@
             this.button4.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(587, 154);
+            this.button4.Location = new System.Drawing.Point(587, 177);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(99, 40);
+            this.button4.Size = new System.Drawing.Size(99, 67);
             this.button4.TabIndex = 16;
             this.button4.Text = "Down";
             this.button4.UseVisualStyleBackColor = false;
@@ -229,9 +229,9 @@
             this.button5.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(522, 108);
+            this.button5.Location = new System.Drawing.Point(496, 131);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(59, 86);
+            this.button5.Size = new System.Drawing.Size(85, 86);
             this.button5.TabIndex = 17;
             this.button5.Text = "Left";
             this.button5.UseVisualStyleBackColor = false;
@@ -242,9 +242,9 @@
             this.button6.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Location = new System.Drawing.Point(692, 108);
+            this.button6.Location = new System.Drawing.Point(692, 131);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(60, 86);
+            this.button6.Size = new System.Drawing.Size(91, 86);
             this.button6.TabIndex = 18;
             this.button6.Text = "Right";
             this.button6.UseVisualStyleBackColor = false;
