@@ -32,63 +32,6 @@ namespace PuzzleGame
             game = new Game(this, diff);
         }
 
-        //private void handleInput(object sender, EventArgs e)
-        //{
-        //    if (gameOver)
-        //    {
-        //        label1.Text = "Congratulations, you have\nsolved the game!";
-        //        label1.Visible = true;
-        //        if (Input.KeyPress(Keys.Enter))
-        //        {
-        //            this.Hide();
-        //            form1.Show();
-        //        }
-        //    }
-        //    else
-        //    {
-        //        bool moved = false;
-        //        if (Input.KeyPress(Keys.Right))
-        //        {
-        //            game.right();
-        //            moved = true;
-        //        }
-        //        else if (Input.KeyPress(Keys.Left))
-        //        {
-        //            game.left();
-        //            moved = true;
-        //        }
-        //        else if (Input.KeyPress(Keys.Up))
-        //        {
-        //            game.up();
-        //            moved = true;
-        //        }
-        //        else if (Input.KeyPress(Keys.Down))
-        //        {
-        //            game.down();
-        //            moved = true;
-        //        }
-
-        //        if (moved)
-        //        {
-        //            game.printGame();
-        //            game.updatePositions();
-        //            if (want_ai)
-        //            {
-        //                updateAILabels();
-        //            }
-        //        }
-        //    }
-        //    if (game.endGame())
-        //    {
-        //        gameOver = true;
-        //    }
-        //    if (Input.KeyPress(Keys.S))
-        //    {
-        //        Form3 form3 = new Form3(this);
-        //        this.Hide();
-        //        form3.Show();
-        //    }
-        //}
 
         private void updateAILabels()
         {
